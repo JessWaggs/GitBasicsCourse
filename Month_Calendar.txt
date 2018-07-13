@@ -1,5 +1,5 @@
 <script src="//api3.libcal.com/js/hours_month.js?002"></script>
-<div id="s-lc-mhw181">&nbsp;</div>
+<div id="s-lc-mhw181"><h1>Here is a Title</h1></div>
 <script>
 $(function(){ 
 var slcmhw181 = new $.LibCalHoursCal( $("#s-lc-mhw181"), { iid: 181, lid: 724, months: 6, domain: "http://api3.libcal.com" }); 
