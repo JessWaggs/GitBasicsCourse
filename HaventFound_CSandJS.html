@@ -1,0 +1,16 @@
+//Adds haven't found card below results
+(function() {
+  var m=document.createElement('md-card');
+  m.className='default-card _md md-primoExplore-theme havent-found';
+  m.innerHTML = '<md-card-title><md-card-title-text><span class="md-headline">Haven&#8217;t found what you&#8217;re looking for?</span></md-card-title-text></md-card-title><md-card-content><md-list role="list" class="md-primoExplore-theme"><md-list-item role="listitem"><span>- <a href="https://ucsc.worldcat.org/search?scope=0">Search University of California libraries and beyond</a>: use Interlibrary Loan to request from another library</span></md-list-item><md-list-item role="listitem"><span>- <a href="https://guides.library.ucsc.edu/ask-a-librarian">Ask a Librarian</a> for expert research help</span></md-list-item><md-list-item role="listitem"><span>- <a href="https://scholar.google.com/schhp?hl=en&amp;as_sdt=0,5">Search Google Scholar</a> or a library <a href="https://guides.library.ucsc.edu/az.php?">research database</a></span></md-list-item><md-list-item role="listitem"><span>- <a href="https://guides.library.ucsc.edu/writing">Get tips for starting your research</a> or check out one our subject <a href="https://guides.library.ucsc.edu/?b=s">Research Guides</a></span></md-list-item></md-list></md-card-content>';
+  document.body.appendChild(m); 
+})();
+
+
+.havent-found {width:62%; margin-left:12%;}
+/*sets position of haven't found card*/
+
+html {background-color:#EEEEEE;}
+/*sets background color of overflow content*/
+
+
