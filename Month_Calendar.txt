@@ -21,8 +21,8 @@ var slcmhw181 = new $.LibCalHoursCal( $("#s-lc-mhw181"), { iid: 181, lid: 724, m
 .loc_5612 { background-color: #98FB98; } 
 .loc_5572 { background-color: #000000; }
 .loc_863 { background-color: #FFFFFF; }
-.loc_864 { background-color: #EEEEEE; }
-.loc_866 { background-color: #EEEEEE; }
+.loc_864 { background-color: #FFFFFF; }
+.loc_866 { background-color: #FFFFFF; }
 </style>
 <script>
 $(window).on("load", function() {
